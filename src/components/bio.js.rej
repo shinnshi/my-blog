@@ -1,0 +1,10 @@
+diff a/src/components/bio.js b/src/components/bio.js	(rejected hunks)
+@@ -75,3 +75,5 @@ const Bio = () => (
+-          <ImageContainer >
+-            <Image fixed={data.avatar.childImageSharp.fixed}
+-              style={{ borderRadius: '50%' }} />
++          <ImageContainer>
++            <Image
++              fixed={data.avatar.childImageSharp.fixed}
++              style={{ borderRadius: '50%' }}
++            />

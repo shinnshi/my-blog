@@ -5,6 +5,7 @@ import Image from 'gatsby-image';
 
 import media from '../utils/media';
 import Twitter from '../images/social/twitter.svg';
+import Github from '../images/social/github.svg';
 
 const Container = styled.div`
   display: flex;
@@ -53,6 +54,11 @@ const TwitterIcon = styled.img`
   width: 1.5rem;
   padding: 1.5rem 1rem;
 `;
+const GithubIcon = styled.img`
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 1.5rem 1rem;
+`;
 
 const Bio = () => (
   <StaticQuery
@@ -71,11 +77,18 @@ const Bio = () => (
             >
               <TwitterIcon src={Twitter} alt="twitter" />
             </a>
+            <a
+              href={`https://github.com/shinnshi`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon src={Github} alt="github" />
+            </a>
           </TextContainer>
           <ImageContainer>
             <Image
               fixed={data.avatar.childImageSharp.fixed}
-              style={{ borderRadius: '50%' }}
+              style={{ borderRadius: '40%' }}
             />
           </ImageContainer>
         </Container>

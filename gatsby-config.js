@@ -6,6 +6,7 @@ module.exports = {
     authorTagline: 'WEB開発、フロントエンドの技術メモを残します！',
     social: {
       twitter: `dev_shts`,
+      github: `shinnshi`,
     },
   },
   plugins: [
