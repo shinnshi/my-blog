@@ -8,3 +8,7 @@ date: '2020-04-28'
 ---
 
 ## I made a blog with Gatsby.js !
+
+---
+
+![me](../../images/gatsby-icon.png)
