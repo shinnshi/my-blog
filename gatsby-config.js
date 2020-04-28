@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Blog Starter`,
-    description: `A Blog starter`,
-    author: `Boy with Silver Wings`,
-    authorTagline: 'Engineer. Driven by Passion',
+    title: `Tech memo`,
+    description: `Blog`,
+    author: `DEV_SHTS`,
+    authorTagline: 'WEB開発、フロントエンドの技術メモを残します！',
     social: {
-      twitter: `agneymenon`,
+      twitter: `dev_shts`,
     },
   },
   plugins: [
@@ -33,7 +33,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
-              showCaptions: true,
+              //showCaptions: true,
             },
           },
           {

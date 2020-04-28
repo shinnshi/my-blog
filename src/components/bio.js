@@ -73,7 +73,10 @@ const Bio = () => (
             </a>
           </TextContainer>
           <ImageContainer>
-            <Image fixed={data.avatar.childImageSharp.fixed} alt={author} />
+            <Image
+              fixed={data.avatar.childImageSharp.fixed}
+              style={{ borderRadius: '50%' }}
+            />
           </ImageContainer>
         </Container>
       );

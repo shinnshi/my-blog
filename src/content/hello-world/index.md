@@ -1,11 +1,9 @@
 ---
-title: 'Lets look at some code'
-date: '2018-04-14T22:12:03.284Z'
+title: 'About me'
+date: '2020-04-28T22:12:03.284Z'
 ---
 
-Probably because you are using it wrong.
-
-If you browse Stackoverflow for React questions, this is one of the most common questions that you will find. Well, it is this or other versions of the same question. All this after Stackoverflow marks questions as duplicates.
+Hello, World
 
 ```js
 function handleChange(value) {
@@ -16,22 +14,10 @@ function handleChange(value) {
 }
 ```
 
-Why is your state not getting updated?
-
-Straight out of [React docs](https://reactjs.org/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous), `setState` may be asynchronous. What does that mean?
-
-Let’s find out.
-
 ```js
 setTimeout(() => console.log('foo'), 0);
 console.log('bar');
 ```
-
-What is the output?
-
-First the second `console.log` fires and then the first one inside the `setTimeout` function. This happens because `setTimeout` is asynchronous and is moved to the browser thread. So the code that runs after `setTimeout` gets executed however small the timeout is.
-
-Same is the case with `setState` Because of it’s asynchronous state, the statement after is being called before the actual `setState` function.
 
 ---
 
