@@ -11,4 +11,4 @@ date: '2020-04-28'
 
 ---
 
-![me](../../images/gatsby-icon.png)
+![](../../images/gatsby-icon.png)
