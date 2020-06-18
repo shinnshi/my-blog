@@ -3,7 +3,7 @@ module.exports = {
     title: `Tech memo`,
     description: `Blog`,
     author: `DEV_SHTS`,
-    authorTagline: 'WEB開発、フロントエンドの技術メモを残します！',
+    authorTagline: 'Gatsbyでブログを作成しました！',
     social: {
       twitter: `dev_shts`,
       github: `shinnshi`,
