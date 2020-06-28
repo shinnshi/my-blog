@@ -1,13 +1,7 @@
-# React 公式チュートリアルを TypeScript で書いてみた
-
 ---
-
-title: 'Hello, World'
+title: 'React 公式チュートリアルを TypeScript で書いてみた'
 date: '2020-06-28'
-
----
-
-React の公式チュートリアル[（ チュートリアル：React の導入~）](https://ja.reactjs.org/tutorial/tutorial.html)は、JavaScript で書かれていますが、TypeScript の入門としてリファクタリングしてみました。
+---React の公式チュートリアル[（ チュートリアル：React の導入~）](https://ja.reactjs.org/tutorial/tutorial.html)は、JavaScript で書かれていますが、TypeScript の入門としてリファクタリングしてみました。
 
 ・[完成した Git のリポジトリのリンク ](https://github.com/shinnshi/react-ts-tutorial)
 
@@ -18,6 +12,7 @@ React の公式チュートリアル[（ チュートリアル：React の導入
 
 ```
 npx create-react-app {プロジェクト名} --typescript
+
 ```
 
 あとは、チュートリアル通りにブラウザからコピペで完成です。
@@ -31,6 +26,7 @@ npx create-react-app {プロジェクト名} --typescript
 
 ```
 renderSquare(i: number) { return <Square /> }
+
 ```
 
 ・[ここまでのコード差分](https://github.com/shinnshi/react-ts-tutorial/commit/ea40124c966f7040282efa6c862c5170b91808fa)
@@ -41,12 +37,14 @@ Square クラスが受け取る Props に対して、interface で型をつけ�
 
 ```
 interface SquarePropsInterface { value: number}
+
 ```
 
 同じように、クラスの State に対しても、interface で型をつけます。
 
 ```
 interface SquareStateInterface { value: string}
+
 ```
 
 ・[ここまでのコード差分](https://github.com/shinnshi/react-ts-tutorial/commit/a8ac811b4321870f87a500a88860212ce73f013c)
